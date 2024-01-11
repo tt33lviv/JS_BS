@@ -24,3 +24,11 @@ function increasePersonAge(person) {
 
 increasePersonAge(personOne)
 console.log(personOne.age)
+
+
+function printMyName() {
+    console.log('Vitaliy Shkrobut')
+}
+setTimeout(printMyName,1000)
+
+
