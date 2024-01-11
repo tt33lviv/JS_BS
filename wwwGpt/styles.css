@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.content {
+    margin-top: 80px;
+    /* Учитывайте высоту вашего закрепленного заголовка */
+}
+
+/* Дополнительные стили для оформления и макета */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+h1 {
+    margin: 0;
+}
+
+header.fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
