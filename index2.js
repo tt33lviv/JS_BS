@@ -24,3 +24,15 @@ let aab = 10.11
 let baa = 10
 console.log(typeof(aab))
 console.log(aab !== baa)
+
+
+const ao =  {
+}
+    
+console.log(!!ao)
+
+let passport = 1
+let passportUa = 'Vitaliy'
+
+console.log(passport || passportUa)
+console.log(passport && passportUa)
